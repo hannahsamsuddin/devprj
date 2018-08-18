@@ -6,8 +6,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Result</title>
 </head>
+<style>
+h1{color:grey;}
+</style>
 <body>
+	<center>
 	<h1>RESULT OF OPERATION</h1>
-	<h2>${res}</h2>
+	<p style="font-size:150%">${res}</p>
+	</center>
 </body>
 </html>
