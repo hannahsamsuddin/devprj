@@ -7,7 +7,7 @@
 <title>Home</title>
 </head>
 <body>
-	<h1>WELCOME THERE</h1>
+	<h1>WELCOME TO HOME</h1>
 	<form action="CalcServlet" method="get">
 		First Number:
 		<input type="text" name="num1" size = "20px">
