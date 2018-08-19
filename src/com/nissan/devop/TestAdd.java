@@ -1,16 +1,13 @@
 package com.nissan.devop;
 
-import static org.junit.Assert.*;
-
-import org.junit.Test;
-
 public class TestAdd {
 
-	@Test
-	public void test() {
-		//fail("Not yet implemented");
+	public void testadd()
+	{
+		int flag;
 		Addnum ad = new Addnum();
-		assertEquals(5.0,ad.add(2.0, 3.0),0.001);
+		if(ad.add(2, 3)==5)
+			flag = 1;
+		
 	}
-
 }
