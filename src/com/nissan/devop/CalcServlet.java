@@ -29,6 +29,14 @@ public class CalcServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		
+		
+	}
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
 		String s1 = request.getParameter("num1");
 		String s2 = request.getParameter("num2");
 		
@@ -55,13 +63,6 @@ public class CalcServlet extends HttpServlet {
 			request.setAttribute("res", result);
 		}
 		request.getRequestDispatcher("ResultPage.jsp").forward(request, response);
-	}
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
 	}
 
 }
