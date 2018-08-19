@@ -11,7 +11,7 @@ h1{color:grey;}
 </head>
 <body>
 	<center>
-	<h1>WELCOME TO HOME</h1>
+	<h1>WELCOME TO HOME PAGE</h1>
 	<form action="CalcServlet" method="post">
 		First Number:<br/>
 		<input type="text" name="num1" size = "20px">
